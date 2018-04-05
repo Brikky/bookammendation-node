@@ -1,0 +1,12 @@
+<div class="container center">
+  <h1>Need a Bookammendation?</h1>
+
+  <select id="book-selector">
+    <option value="" disabled selected>Tell Me a Book You Enjoyed</option>
+    <% books.forEach((book) => { %>
+      <option data-id=<%= book.id %> value=<%= book.title %>><%= book.title %></option>
+    <% }) %>
+  </select>
+</div>
+
+<div id="recommendations"></div>

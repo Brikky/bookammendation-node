@@ -1,0 +1,23 @@
+{
+  "name": "bookammendation-node",
+  "version": "1.0.0",
+  "description": "Webapp for interacting with the bookammendation book recommendation engine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "books",
+    "recommendation",
+    "engine",
+    "node"
+  ],
+  "author": "Brandon Kerr",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^2.1.0",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.13"
+  }
+}
